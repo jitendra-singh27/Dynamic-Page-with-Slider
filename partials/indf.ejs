@@ -1,0 +1,42 @@
+<section id="footer">
+    <img src="/media/border2.png" alt="" id="back">
+        <div class="container">
+          <div class="row">
+             <div class="col-md-4">
+              
+                <img src="/upload/<%=Footerdata.imgt%>" alt="" id="social">
+                <p><%=Footerdata.descr%> </p>
+            
+               </div>
+             <div class="col-md-4">
+               
+                <h3><%=Footerdata.title%></h3>
+                <p><span><i class="bi bi-geo-alt"></i> </span> : <%=Footerdata.address%></p>
+                <p><span><i class="bi bi-telephone"></i></span>: <%=Footerdata.phone%></p>
+                <p><span><i class="bi bi-phone"> </i></span>: <%=Footerdata.mobile%></p>
+                <p><span><i class="bi bi-envelope"></i></span>: <%=Footerdata.email%></p>
+             
+             </div>
+             <div class="col-md-4">
+                <h3>Query Form</h3>
+                <form action="/queryrec" method="post">
+                   <input type="email" name="Email" id="" placeholder="Enter Email" class="form-control">
+                   <textarea name="Query" id="" placeholder="Enter Query" class="form-control mt-2 mb-2" ></textarea>
+                   <button type="submit " class="btn btn-success form-control">Submit Query </button>
+                </form>
+             </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+             <div class="col-md-12 text-center">
+               
+                   <a href="<%=Socialrecord.instagram%>"><img src="/media/instagram-icon.png" alt=""></a>
+                  <a href="<%=Socialrecord.linkedin%>"> <img src="/media/linkedin-icon.png" alt=""></a>
+                 <a href="<%=Socialrecord.Snapchat%>"><img src="/media/snapchat-icon.png" alt=""></a>  
+                  <a href="<%=Socialrecord.twitter%>"><img src="/media/twitter-icon.png" alt=""></a> 
+              
+             </div>
+          </div>
+        </div>
+       </section>
